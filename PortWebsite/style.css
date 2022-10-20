@@ -33,10 +33,9 @@ section {
     font-size: 50px;
 }
 
-.navbar {
-    height: 50px;
-    justify-content: center;
-    align-items: center;
+.navBar {
+    height: 5%;
+    width: 100%;
     color: #faffeb;
 }
 
@@ -49,14 +48,16 @@ section {
 ul {
     list-style-type: none;
     margin: 0;
+    width: 100%;
     padding: 40px;
     overflow: hidden;
     position: fixed;
+    background-color: #1c1b1b;
     
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
