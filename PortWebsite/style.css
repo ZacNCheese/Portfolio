@@ -20,8 +20,6 @@ section {
 }
 
 .container {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
     height: 100vh;
 }
 
@@ -46,4 +44,30 @@ section {
     font-family: 'Silkscreen';
     font-size: 15px;
     padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    overflow: hidden;
+    position: fixed;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #faffeb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Silkscreen';
+}
+
+li a:hover {
+    color: lightgreen;
 }
